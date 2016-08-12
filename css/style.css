@@ -1,0 +1,39 @@
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img { margin:0; padding:0; }
+a{ text-decoration:none; color: #000;}
+img{ border:none;}
+ul,ol,li{ list-style:none;}
+.left{ float:left;}
+.right{ float:right;}
+body{ margin:0 auto; font:12px "微软雅黑"; background:#fff; font-weight:normal;}
+.banner,.top,.main,footer{ margin:0 auto;width: 1280px;}
+#active_link{ color: #f4649d; font-weight: bold; background: url(../images/meow.png) no-repeat center bottom;margin-top: 2px;}
+
+
+/*nav*/
+.navwrap{ width: 100%; background: #f8f6f6;height: 70px; border-bottom: 1px solid #e6e1e1; position: fixed;top:0;z-index: 5;}
+nav{padding: 0 40px; overflow: hidden; margin: 0 auto; background: url(../images/welcome.gif) no-repeat 1150px center;}
+.logo{ background: url(../images/bg.png) no-repeat; height: 60px;margin-top: 5px;}
+.logo img{ padding-left: 60px; margin-top: 15px;}
+.nav_list{margin-left: 30px;}
+.nav_list li{ float: left; font-size: 18px; color: #464545;line-height: 70px; text-align: center; margin: 0 30px;}
+.nav_list li a{ display: block; width: 75px; height: 70px; }
+.nav_list li a:hover{color: #f4649d; margin-top: 2px;}
+.about_menu,.pic_menu,.news_menu,.act_menu{ width: 60px;width: 105px; position: fixed; padding: 3px 0 3px 4px; margin-left: -20px; background: #fff;}
+.about_menu li,.pic_menu li,.news_menu li,.act_menu li{margin: 0;padding: 0; line-height: 36px; font-size: 14px; width: 80px; text-align: center; clear: both;}
+.about_menu li a,.pic_menu li a,.news_menu li a,.act_menu li a{ display: block; width: 100px; height: 35px;border-bottom: 1px dashed #ddd;}
+.about_menu li a:hover,.pic_menu li a:hover,.news_menu li a:hover,.act_menu li a:hover{background: #fecadf;color: #fff;}
+.nav_list .last_a{border-bottom: none;}
+
+/*banner*/
+.banner{width: 1280px; height: 346px; background: url(../images/banner.jpg) no-repeat center bottom;box-shadow:1px 3px 3px #ccc;margin-top: 71px;position: relative;}
+.banner p{background: url(../images/sent.png); height: 30px; line-height: 30px; color: #fff; padding: 0 15px; width: auto; position: absolute; bottom: 0;}
+
+
+/*footer*/
+footer{width: 100%; height: 260px; background: url(../images/footer1.png) no-repeat bottom right #aaccc4;color: #fff;line-height: 30px; font-size: 16px;}
+.foot_p{width: 800px; margin:0 auto;padding-top: 30px;text-align: center;height: 100px;}
+.copy{text-align: center;font-size: 12px;color: #555;}
+
+.totop{width: 70px;position: fixed;top: -100px;right: 0;}
+#rope{width: 70px; background: url(../images/rope.png) no-repeat;}
+.totop div:last-child{width: 70px;background: url(../images/topscroll.png) no-repeat;height: 98px;cursor: pointer;}

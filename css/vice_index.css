@@ -1,0 +1,63 @@
+.pause {height: 65px; width:50px;background:url(../images/pause.png) no-repeat;display: block; margin: 20px 0 0 950px;}
+.mscBtn {height: 65px; width:50px;background:url(../images/play.png) no-repeat;display: block; margin: 20px 0 0 950px;}
+
+/*top*/
+.top{ margin-top: 30px; overflow: hidden; height: 350px;}
+.shuf{ width: 670px; height: 350px; border: 1px solid #ccc; position: relative;box-shadow:1px 3px 3px #ccc;}
+.left_point,.right_point{ position: absolute; top: 45%;cursor: pointer; width: 30px; height: 30px;}
+.left_point{ left: 10px;}
+.right_point{right: 10px;}
+.top_p{ width:650px; height: 50px; position: absolute; bottom: 0; background: url(../images/sent.png); color: #fff;padding-left: 20px; line-height: 50px; font-size: 16px;}
+.small_news dl{ width: 570px;  height:105x; border: 1px solid #ddd; margin:10px 0 0 30px;overflow: hidden;box-shadow:1px 2px 2px #ccc;}
+.small_news dt{ float: left; }
+.small_news dd{ float: left; width: 400px; padding: 10px 0 0 10px;}
+.small_news .first_dl{margin-top: 0;}
+.small_news img{ margin-top: 3px; padding-left: 3px;}
+.small_news h3{ font-size: 18px; }
+.small_news p{ line-height: 26px; padding-top: 10px; white-space: nowrap;overflow: hidden; text-overflow: ellipsis; text-indent: 1em;}
+
+
+
+
+/*line*/
+.line{height: 27px; width: 1280px;background: url(../images/line.png) repeat;margin:25px auto;}
+/*main*/
+.left_bar{width: 800px;overflow: hidden;}
+
+.activity,.news_info{ width: 800px;margin-top: 10px;overflow: hidden; height: 420px;}
+.act1,.act2,.news1{width: 380px; height: 400px;box-shadow:1px 3px 3px #ccc;}
+.act2{ margin-left: 40px;}
+.tit1{ font-size: 18px; font-weight: bold; height: 60px; line-height: 40px; background: url(../images/talk.png) no-repeat center left; padding-left:40px;color: #5f5c5f;font-weight: normal;}
+.tit1 span,.picture .tit1 p{border-right: 1px solid #ddd;padding-right: 30px; height:40px;display: inline-block; text-align: center;line-height: 40px;}
+.tit1 img{margin:15px 0 0 30px;}
+.pic1{margin: 22px 20px 0 0;float: left;}
+.tit2{float: left;margin: 20px 10px 0 0; font-size: 18px; color: #343232;font-weight: normal; border-left: 1px solid #ddd; padding-left: 15px;}
+.tit2 span{font-size: 12px; color: #ccc;}
+.cont,.news_list .cont,.dl_list .cont{clear:both;padding: 15px 10px 0 10px;color: #868286; line-height: 20px;text-indent: 2em;}
+
+.news_info .tit1{background: url(../images/news.png) no-repeat center left;}
+.news_list{width: 400px; height: 400px;margin:3px 0 0 17px;} 
+.dl_list{ width: 400px; height: 120px;overflow: hidden;margin-top: 15px;box-shadow:1px 3px 3px #ccc;}
+.dl_list:first-child{margin-top: 0;}
+.dl_list dt{float: left;margin: 5px 0 0 5px;}
+.dl_list dd{float: left;width: 220px;font-size: 14px; padding: 8px 0 0 10px;line-height: 22px;}
+.dl_list dd span{color: #ccc; font-size: 12px;}
+
+aside{width: 420px; height: 830px;float: left; margin-left: 50px;}
+aside .tit1{background: url(../images/music.png) no-repeat left center;}
+aside .tit1 span{border-right: none;text-align: center;height: 60px; line-height: 60px;}
+aside .dl_list{width: 420px; height: 170px; box-shadow: 0 0 0 0;}
+aside .dl_list dd{width: 240px;}
+
+.picture{width: 1280px; height: 700px;overflow: hidden;}
+.pic_list{ width: 409px; height: 505px;padding:5px 0 3px 3px;}
+.pic_list li{float: left; position: relative;}
+.pic_list a{position: relative;display:block;}
+.pic_list li span{position: absolute;bottom: 0; height: 40px; background: url(../images/sent.png);z-index: 3;width: 100%;color: #fff; line-height: 40px; margin-bottom: 3px;text-indent: 2em;}
+.picture .tit1{background: url(../images/pict.png) no-repeat center left; padding-left: 20px;}
+.picture .tit1 p{padding:0 40px 0 30px;}
+.picture .tit1 img{ margin:15px 0 0 40px; }
+
+
+
+

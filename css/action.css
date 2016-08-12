@@ -1,0 +1,27 @@
+/*main*/
+.main{overflow: hidden;margin-bottom: 40px;}
+aside{width: 200px;border: 1px solid #ddd;margin: 30px 0 30px 0;padding:0 10px 40px 10px; border-radius: 15px;box-shadow: 1px 0 1px 1px #ccc;}
+aside p{ width: 200px; height: 60px; font-size: 18px; font-weight: bold;color: #525554; }
+aside p span{margin-left:10px;}
+aside ul{margin-top: 40px;}
+aside ul li{display: block; height: 40px; line-height: 40px; text-align: center;letter-spacing:10px; width: 200px;border-bottom: 1px dashed #ccc;font-size: 16px;cursor: pointer;}
+aside ul li:hover{color: #fff;background: #fecadf;}
+.cont{position: relative;margin-top: 30px;}
+.pin{position: absolute;top:-22px;left:60px;}
+.new_act,.all_act{width: 900px;border: 1px solid #ccc; margin:30px 0 0 50px;padding: 20px 30px; border-radius: 20px;box-shadow:1px 1px 1px 1px #ccc;overflow: hidden;}
+
+
+.act_sim{ width: 800px; height:300px; box-shadow:1px 2px 1px 1px #7b7d7d; border-radius: 25px; padding: 20px;margin-top: 30px;}
+.act_list:first-child{margin-top: 0;}
+.act_sim span{ color: #aaa; font-size: 12px; font-weight: normal;float: right;text-shadow: none;}
+.act_sim h4,.act_det h4{font-size: 18px; height: 30px; line-height: 30px;margin-bottom: 20px;text-align: center;text-shadow: 1px 1px 1px tomato;}
+.act_sim dt{float: left; width: 350px;line-height: 30px;padding: 10px 15px;text-indent: 2em;}
+.act_sim dd img{float: left; width: 400px;height: 240px;}
+.new_act .click,.all_act .click{font-size: 16px;float: right;margin-top: 20px;cursor:pointer; color: tomato;}
+.click_back{font-size: 16px;cursor:pointer; color: tomato;position: absolute; right: 30px; bottom: 35px;}
+
+.act_det{width: 800px;padding:20px 20px 40px 20px;box-shadow:1px 2px 1px 1px #7b7d7d; border-radius: 25px;overflow: hidden;position: relative;}
+.act_det p{line-height: 30px;padding: 10px 15px;font-size: 14px;}
+.act_det img{margin:10px 20px 10px 0;display:block;height: 300px; float: left;}
+
+

@@ -1,0 +1,20 @@
+
+/*main*/
+.main{overflow: hidden;margin-bottom: 40px;}
+aside{width: 200px;border: 1px solid #ddd;margin: 30px 0 30px 0;padding:0 10px 40px 10px; border-radius: 15px;box-shadow: 1px 0 1px 1px #ccc;}
+aside p{ width: 200px; height: 60px; font-size: 18px; font-weight: bold;color: #525554; }
+aside p span{margin-left:10px;}
+aside ul{margin-top: 40px;}
+aside ul li{display: block; height: 40px; line-height: 40px; text-align: center;letter-spacing:10px; width: 200px;border-bottom: 1px dashed #ccc;font-size: 16px;cursor: pointer;}
+aside ul li:hover{color: #fff;background: #fecadf;}
+.cont{position: relative;margin-top: 30px;}
+.intro,.rules,.dep{width: 900px;border: 1px solid #ccc; margin:30px 0 0 50px;padding: 20px 30px; border-radius: 20px;box-shadow:1px 1px 1px 1px #ccc;}
+.pin{position: absolute;top:-22px;left:60px;}
+
+article h3{font-size: 22px; text-align: center;}
+article time{font-size: 14px; color: #aaa; float: right;}
+article p{line-height: 30px; margin-top: 20px;}
+article h4{font-size: 18px;margin-top: 20px;}
+
+
+

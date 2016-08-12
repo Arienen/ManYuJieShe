@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>漫语结社</title>
+	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="../css/vice_index.css">
+	<link rel="shortcut icon" href="../favicon.ico"/>
+	<link rel="bookmark" href="../favicon.ico"/>
+	<script src="../js/vice_index.js"></script>
+	<script src="../js/jquery.js"></script>
+</head>
+<body>
+	<!-- nav -->
+	<div class="navwrap">
+		<nav>
+			<div class="logo left"><a href="../index.html"><img src="../images/logo.jpg" alt="" title="漫语结社"></a></div>
+			<ul class="left nav_list">
+				<li><a href="../html/vice_index.html" id="active_link">社团首页</a></li>
+				<li id="aboutUs">
+					<a href="../html/about_us.html">关于我们</a>
+					<div class="about_menu" style="display: none;">
+						<ul>
+							<li><a href="../html/about_us.html">社团章程</a></li>
+							<li><a href="../html/about_us.html" class="last_a">部门结构</a></li>
+						</ul>
+					</div>
+				</li>
+				<li id="act">
+					<a href="../html/action.html">活动一览</a>
+					<div class="act_menu" style="display: none;">
+						<ul>
+							<li><a href="../html/action.html">最新活动</a></li>
+							<li><a href="../html/action.html" class="last_a">全部活动</a></li>
+						</ul>
+					</div>
+				</li>
+				
+				<li id="pic">
+					<a href="../html/pictures.html">萌の图库</a>
+					<div class="pic_menu" style="display: none;">
+						<ul>
+							<li><a href="../html/pictures.html">活动照片</a></li>
+							<li><a href="../html/pictures.html">成员作品</a></li>
+							<li><a href="../html/pictures.html" class="last_a">动漫美图</a></li>
+						</ul>
+					</div>
+				</li>
+	
+				<li id="news">
+					<a href="../html/news.html">动漫资讯</a>
+					<div class="news_menu" style="display: none;">
+						<ul>
+							<li><a href="../html/news.html">最新资讯</a></li>
+							<li><a href="../html/news.html" class="last_a">历史资讯</a></li>
+						</ul>
+					</div>
+				</li>
+				
+			</ul>
+			
+			<a class="mscBtn" id="audioBtn" title='背景音乐：やなぎなぎ - 眠りの国' style="cursor:pointer;"></a>
+			<audio src="../images/files/song.mp3" autoplay="autoplay" loop="loop" id="bgmusic">	
+			</audio>
+		</nav>
+
+	</div>
+
+	<!-- banner -->
+	<div class="banner">
+		<p id="sentence"></p>
+	</div>
+
+	<!-- top -->
+	<div class="top">
+		<div class="shuf left">
+			<a href="../html/action.html" style="display: block"><img src="../images/top1.jpg" alt="" title="每月一次的出外景活动火热开炉！欢迎加入~"><div class="top_p">每月一次的出外景活动火热开炉！欢迎加入~</div></a>
+
+			<a href="../html/action.html" style="display: none"><img src="../images/top2.jpg" alt="" title="星期天晚上八点致远楼四楼约定你哦~"><div class="top_p">星期天晚上八点致远楼四楼约定你哦~</div></a>
+
+			<a href="../html/news.html" style="display: none"><img src="../images/top3.jpg" alt="" title="日漫《Angel Beats！1st beat》改成PC游戏"><div class="top_p">日漫《Angel Beats！1st beat》改成PC游戏</div></a>
+
+			<div class="left_point" style="background: url(../images/left.png) no-repeat;"></div>
+			<div class="right_point" style="background: url(../images/right.png) no-repeat;"></div>
+		</div>
+		<div class="small_news left">
+			<dl class="first_dl">
+				<dt><a href="../html/action.html"><img src="../images/small_news1.jpg" alt="" title="春日烧烤进行时ING！"></a></dt>
+				<dd>
+					<h3>春日烧烤进行时ING！</h3>
+					<p>在这阳光明而不媚，春意盎然的3月，社团干部们组织了一次烧烤活动</p>
+				</dd>
+			</dl>
+			<dl>
+				<dt><a href="../html/news.html"><img src="../images/small_news2.jpg" alt="" title="四月新番看什么？日本网友推荐"></a></dt>
+				<dd>
+					<h3>四月新番看什么？日本网友推荐</h3>
+					<p>4月很快就要到来了，为数可观的4月新番也将接踵而至。然而在这些让人眼</p>
+				</dd>
+			</dl>
+			<dl>
+				<dt><a href="../html/news.html"><img src="../images/small_news3.jpg" alt="" title="票选1月新番CP榜"></a></dt>
+				<dd>
+					<h3>票选1月新番CP榜</h3>
+					<p>很多动漫迷在追一部作品的时候，除了被其中的剧情所打动之外，角色们之间的CP</p>
+				</dd>
+			</dl>
+		</div>
+	</div>
+
+	<div class="line"></div>
+
+
+	<!-- main -->
+	<div class="main">
+		<div class="left left_bar">
+			<div class="activity left">
+				<div class="act1 left">
+					<p class="tit1"><span>火热活动</span><a href="../html/action.html"><img src="../images/add.png" alt="" title="更多" class="more"></a></p>
+					<a href="../html/action.html"><img src="../images/act1.jpg" alt="" title="3月外景拍摄"></a>
+					<div>
+						<img src="../images/hot1.png" alt="" class="pic1">
+						<h3 class="tit2">3月外景拍摄<br><span>2016-03-03</span></h3>
+						<p class="cont">3月份的外景拍摄作品出炉啦！</p>
+					</div>
+				</div>
+				<div class="act2 left">
+					<p class="tit1"><span>COSPLAY大赛</span><a href="../html/action.html"><img src="../images/add.png" alt="" title="更多" class="more"></a></p>
+					<a href="../html/action.html"><img src="../images/act2.jpg" alt="" title="4月份的COS大赛开启啦"></a>
+					<div>
+						<img src="../images/hot1.png" alt="" class="pic1">
+						<h3 class="tit2">4月份的COS大赛开启啦<br><span>2016-03-03</span></h3>
+						<p class="cont">亲们关注已久的COS大赛开始啦~你还在等什么？赶紧来参与吧！</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="news_info left">
+				<div class="news1 left">
+					<p class="tit1"><span>火热资讯</span><a href="../html/news.html"><img src="../images/add.png" alt="" title="更多" class="more"></a></p>
+					<a href="../html/news.html"><img src="../images/news1.jpg" alt="" title="《NEW GAME！》声优公布"></a>
+					<div>
+						<img src="../images/hot1.png" alt="" class="pic1">
+						<h3 class="tit2">《NEW GAME！》声优公布<br><span>2016-04-18</span></h3>
+						<p class="cont">此前宣布将在今年7月开播的新番动画《NEW GAME！》凭借最近流行的“业界” ...</p>
+					</div>
+				</div>
+				<div class="news_list left">
+					<dl class="dl_list">
+						<dt><a href="../html/news.html"><img src="../images/news2.jpg" alt="" title="游戏王新作游戏《最强卡片战斗》"></a></dt>
+						<dd>
+							<p>
+								游戏王新作游戏《最强卡片战斗》<br>
+								<span>2016-04-20</span><br>
+								<span class="cont">《游戏王》新作游戏《最强卡片战斗（原名：最強カードバトル）》将登陆3DS ...</span>
+								
+							</p>
+						</dd>
+					</dl>
+					<dl class="dl_list">
+						<dt><a href="../html/news.html"><img src="../images/news3.jpg" alt="" title="吓到我了！王思聪诉手游《思聪的日子》"></a></dt>
+						<dd>
+							<p>
+								吓到我了！王思聪诉手游《思聪的日子》<br>
+								<span>2016-04-20</span><br>
+								<span class="cont">据报道，由于手机游戏《思聪的日子》及该游戏宣传推广文章擅自...</span>
+							</p>
+						</dd>
+					</dl>
+					<dl class="dl_list">
+						<dt><a href="../html/news.html"><img src="../images/news4.jpg" alt="" title="少年SUNDAY推出4部新连载"></a></dt>
+						<dd>
+							<p>
+								少年SUNDAY推出4部新连载<br>
+								<span>2016-04-20</span><br>
+								<span class="cont">近年来，少年漫画杂志整体呈现严重下滑的态势，而作为曾经三大杂志之一的《 ...</span>
+								
+							</p>
+						</dd>
+					</dl>
+				</div>
+			</div>
+		</div>
+		<aside>
+			<p class="tit1"><span>动漫歌曲TOP TOP TOP</span></p>
+			<dl class="dl_list">
+				<dt><a href="../images/files/Lisa - Crossing Field.ape" target="_blank"><img src="../images/aside1.jpg" alt="" title="Crossing Field-Lisa（ape无损单曲下载）"></a></dt>
+				<dd>
+					<p>
+						<a href="../images/files/Lisa - Crossing Field.ape" target="_blank">Crossing Field-Lisa（ape无损单曲下载）</a><br>
+						<span>2015-12-29</span><br>
+						<span class="cont">Crossing Field （刀剑神域 第一季OP）作词/作曲:渡辺翔 编曲:とく 歌:LiSA</span>		
+					</p>
+				</dd>
+			</dl>
+			<dl class="dl_list">
+				<dt><a href="../images/files/chuyin-qianbenying.mp3" target="_blank"><img src="../images/aside2.jpg" alt="" title="千本樱-初音ミク（320K高品质单曲下载）"></a></dt>
+				<dd>
+					<p>
+						<a href="../images/files/chuyin-qianbenying.mp3" target="_blank">千本樱-初音ミク（320K高品质单曲下载）</a><br>
+						<span>2015-12-29</span><br>
+						<span class="cont">千本桜 作词：黒うさ 作曲：黒うさ 演唱：初音未来 </span>		
+					</p>
+				</dd>
+			</dl>
+			<dl class="dl_list">
+				<dt><a href="../images/file/chuyin-shenhaishaonv.flac"  target="_blank"><img src="../images/aside3.jpg" alt="" title="深海少女-初音ミク（flac无损单曲下载）"></a></dt>
+				<dd>
+					<p>
+						<a href="../images/file/chuyin-shenhaishaonv.flac"  target="_blank">深海少女-初音ミク（flac无损单曲下载）</a><br>
+						<span>2015-10-31</span><br>
+						<span class="cont">深海少女 作詞：ゆうゆ 作曲：ゆうゆ 編曲：ゆうゆ 唄：初音ミク</span>		
+					</p>
+				</dd>
+			</dl>
+			<dl class="dl_list">
+				<dt><a href="../images/files/Fripside - Only My Railgun.flac" target="_blank"><img src="../images/aside4.jpg" alt="" title="Only My Railgun-Fripside（flac无损单曲下载）"></a></dt>
+				<dd>
+					<p>
+						<a href="../images/files/Fripside - Only My Railgun.flac" target="_blank">Only My Railgun-Fripside（flac无损单曲下载）</a><br>
+						<span>2015-01-05</span><br>
+						<span class="cont">中文名：只有我的电磁炮(唯我超电磁炮) 歌词：Satoshi Yaginuma.yuki-ka 作曲：Satoshi Yaginuma 演唱：Fripside</span>		
+					</p>
+				</dd>
+			</dl>
+		</aside>
+
+		<div class="picture">
+			<div class="tit1"><p>图库欣赏</p><a href="../html/pictures.html"><img src="../images/add.png" alt="" title="更多" class="more"></a></div>
+			<ul class="pic_list left">
+				<li><a href="../images/img13.jpg" target="_blank"><img src="../images/pic1.jpg" alt=""></a><span style="display: none;">社团COS精选</span></li>
+				<li style="margin-left: 4px;"><a href="../images/img14.jpg" target="_blank"><img src="../images/pic2.jpg" alt=""></a><span style="display: none;">社团COS精选</span></li>
+				<li><a href="../images/img10.jpg"  target="_blank"><img src="../images/pic3.jpg" alt=""></a><span style="display: none;">社团COS精选</span></li>
+			</ul>
+			<ul class="pic_list left">
+				<li><a href="../images/pic4yt.jpg" target="_blank"><img src="../images/pic4.jpg" alt=""></a><span style="display: none;">主人sama，快来用餐吧~</span></li>
+				<li style="margin-left: 4px;"><a href="../images/pic5yt.jpg" target="_blank"><img src="../images/pic5.jpg" alt=""></a><span style="display: none;">四月，是你的谎言</span></li>
+				<li><a href="../images/pic6yt.jpg" target="_blank"><img src="../images/pic6.jpg" alt=""></a><span style="display: none;">古风cos</span></li>
+				<li style="margin-left: 4px;"><a href="../images/pic7yt.jpg" target="_blank"><img src="../images/pic7.jpg" alt=""></a><span style="display: none;">急急如律令！</span></li>
+			</ul>
+			<ul class="pic_list left">
+				<li><a href="../images/img17.jpg" target="_blank"><img src="../images/pic9.jpg" alt=""></a><span style="display: none;">社团COS精选</span></li>
+				<li style="margin-left: 4px;"><a href="../images/img30.jpg" target="_blank"><img src="../images/pic10.jpg" alt=""></a><span style="display: none;">社团COS精选</span></li>
+				<li><a href="../images/img6.jpg" target="_blank"><img src="../images/pic8.jpg" alt=""></a><span style="display: none;">社团COS精选</span></li>
+			</ul>
+		</div>
+	</div>
+	
+
+	<!-- footer -->
+	<footer>
+		<div class="foot_p">
+			<img src="../images/dou_left.png" alt="">
+			漫语结社为所有爱好动漫和Cosplay的人提供一个展示自己的平台，增加动漫爱好者和Cosplay者之间的交流，欢迎大家的加入~*★,°*:.☆\(￣▽￣)/$:*.°★*
+			<img src="../images/dou_right.png" alt="">
+		</div>
+		<p class="copy">
+			copyright &copy; 2011-2016 All Rights Reserved.<br>	Powered By WeCenter 3.1.7
+		</p>
+	</footer>
+	
+
+	<div class="totop">
+		<div id="rope" style="height:0"></div>
+		<div></div>
+	</div>
+</body>
+</html>

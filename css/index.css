@@ -1,0 +1,31 @@
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img{margin: 0;padding: 0;}
+html,body{height: 100%; width: 100%;}
+a{ text-decoration:none; color: #000;}
+img{ border:none;}
+ul,ol,li{ list-style:none;}
+.left{ float:left;}
+.right{ float:right;}
+body{ margin:0 auto; font:12px "微软雅黑"; font-weight:normal; background:#7b2a03;}
+
+/* background */
+.background{ width: 100%; height: 90%; background: url(../images/bg.jpg) no-repeat center;background-size: cover;}
+
+/*main*/
+img{ width: 100px; position: absolute; top: 25%; left: 50%; margin-left: -50px;
+	animation: spin 6s linear infinite;}   /*定义动画的名字，动画花费的时间，匀速，不限播放次数*/
+.enter{ width: 200px; height: 30px; text-align: center; line-height: 30px; position: absolute; top: 70%; left: 50%; margin: -15px 0 0 -80px; font-size: 22px; font-weight: bold; letter-spacing: 1em;}
+.enter a{ color: #fff; display: block; width: 200px; height: 30px;margin-left:-15px;padding-left:11px;}
+.enter a:hover{ background: url(../images/a.png) no-repeat; color: chocolate; }
+.myjs_name{color: #fff; font-size: 30px; position: absolute; top: 45%; left: 50%; letter-spacing: 12px; margin-left: -350px; width: 700px; border-bottom: 1px solid #fff; text-align: center; height: 60px; line-height: 60px;}
+.myjs{ position: absolute; top: 57%; left: 50%; color: #fff; letter-spacing: 5px; margin-left: -25.3px;}
+
+/*动画效果*/
+@keyframes spin {   
+		0% {transform:rotate(0deg);}
+		100% {transform:rotate(360deg);}
+	} 
+
+
+/*footer*/
+.footer_cont,.copy{ text-align: center; color: #ccc; height: 30px; line-height: 30px; width: 100%;}
+.footer_cont{ padding: 0 10px; border-bottom: 1px dashed #ddd;}
